@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Helmet', 'Person', 'Vest']
+
+roboflow:
+  workspace: unknown-ym3jc
+  project: ppe-detection-dataset-4
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/unknown-ym3jc/ppe-detection-dataset-4/dataset/1
